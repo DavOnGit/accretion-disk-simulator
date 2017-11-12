@@ -1,0 +1,12 @@
+{
+  "name": "accretion-disk-model",
+  "version": "1.0.0",
+  "description": "Disk accretion 3D simulation",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Davide G. Vozzi <davide.vozzi@gmail.com> (https://github.com/DavOnGit)",
+  "license": "MIT",
+  "dependencies": {
+    "simple-express-static-server": "github:spadin/simple-express-static-server"
+  }
+}

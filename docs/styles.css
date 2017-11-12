@@ -1,0 +1,79 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(10,10,20);
+  margin: 0;
+  overflow: hidden;
+  font-family: cursive, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+#menuOpenBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: rgba(60,180,255, 1);
+  font-size: 1.5em;
+  background-color: transparent;
+}
+
+.main {
+  position: relative;
+}
+
+#controls {
+  position: absolute;
+  top:0;
+  left: -300px;
+  background-color: rgba(60,180,255, 1);
+  width: 260px;
+  padding: 0.5em;
+  transition: left 0.3s ease-out;
+}
+
+#controls.active { left: 0; }
+
+#controls > h3 { text-align: center; }
+
+#dataForm > button {
+  display: block;
+  padding: 1em;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-wrapper { margin: 10px 0; }
+
+.input-wrapper > label {
+  display: inline-block;
+  width: 170px;
+  text-align: center;
+}
+
+.input-wrapper > input { width: 60px; }
+
+/*.input-wrapper > input { display: block; }*/
+
+#menuCloseBtn {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  background-color: transparent;
+}
+
+.canvas1 {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas1:focus {
+  outline-width: 0px;
+}
